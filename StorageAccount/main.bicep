@@ -8,6 +8,7 @@ resource storageaccount 'Microsoft.Storage/storageAccounts@2021-02-01' = {
   identity:{
      type: 'SystemAssigned'
   }
+  // this is properties field
   properties: {
      accessTier: 'Cool'
       allowBlobPublicAccess: false
